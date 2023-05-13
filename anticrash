@@ -1,4 +1,55 @@
-game:GetService'Players':Chat(("h This server is protected )"))
+for i,v in pairs(game.Workspace.Terrain["_Game"].Workspace.Obby:GetChildren()) do
+    if v.Name == "Jump" then
+        v:Destroy()
+    end
+end
+for i,v in pairs(game.Workspace.Terrain["_Game"].Workspace.Obby:GetChildren()) do
+    if v.Name == "Jump1" then
+        v:Destroy()
+    end
+end
+for i,v in pairs(game.Workspace.Terrain["_Game"].Workspace.Obby:GetChildren()) do
+    if v.Name == "Jump2" then
+        v:Destroy()
+    end
+end
+for i,v in pairs(game.Workspace.Terrain["_Game"].Workspace.Obby:GetChildren()) do
+    if v.Name == "Jump3" then
+        v:Destroy()
+    end
+end
+for i,v in pairs(game.Workspace.Terrain["_Game"].Workspace.Obby:GetChildren()) do
+    if v.Name == "Jump4" then
+        v:Destroy()
+    end
+end
+for i,v in pairs(game.Workspace.Terrain["_Game"].Workspace.Obby:GetChildren()) do
+    if v.Name == "Jump5" then
+        v:Destroy()
+    end
+end
+for i,v in pairs(game.Workspace.Terrain["_Game"].Workspace.Obby:GetChildren()) do
+    if v.Name == "Jump6" then
+        v:Destroy()
+    end
+end
+for i,v in pairs(game.Workspace.Terrain["_Game"].Workspace.Obby:GetChildren()) do
+    if v.Name == "Jump7" then
+        v:Destroy()
+    end
+end
+for i,v in pairs(game.Workspace.Terrain["_Game"].Workspace.Obby:GetChildren()) do
+    if v.Name == "Jump8" then
+        v:Destroy()
+    end
+end
+for i,v in pairs(game.Workspace.Terrain["_Game"].Workspace.Obby:GetChildren()) do
+    if v.Name == "Jump9" then
+        v:Destroy()
+    end
+end
+
+game:GetService'Players':Chat(("h >>>>>>>>>>>>>>>>>>> this server is now  protected <<<<<<<<<<<<<<<<<<<< "..game.Players.LocalPlayer.Name.."'s script! (credits to banbydoo for making this script)"))
 for i,vai in pairs(game.Players:GetChildren()) do
     while vai ~= nil do wait(0.3)
 if #game.Players:GetChildren() < #game.Players:GetChildren() and #game.Players:GetChildren() > #game.Players:GetChildren() then
@@ -30,42 +81,33 @@ end
             end
             for i,bruv in pairs(v.Character:GetChildren()) do
                 if bruv.Name == "Seizure" then
-                    game:GetService'Players':Chat(("unseizure "..v.Name"))
+                    game:GetService'Players':Chat(("unseizure "..v.Name))
                 end
                 end
             for i,ve in pairs(v.Backpack:GetChildren()) do
                 if ve.Name == "VampireVanquisher" then
-                 game:GetService'Players':Chat(("h -------------"..v.Name.." ATTEMPTED TO CRASH THE SERVER LOOOL-------------"))
                     game:GetService'Players':Chat(("reset "..v.Name))
-                    game:GetService'Players':Chat((".spam respawn "..v.Name ))
-                     game:GetService'Players':Chat(("h -50 seconds cooldown-"))
-                    wait(50)
-                    game:GetService'Players':Chat((".stop"))
-        
+                    game:GetService'Players':Chat(("h  >>>>>>>"..v.Name.." ATTEMPTED TO CRASH THE SERVER LOOOL<<<<<<<"))
+                    end
             end
             for i,vi in pairs(v.Character:GetChildren()) do
                 if vi.Name == "VampireVanquisher" then
-                   game:GetService'Players':Chat(("h -------------"..v.Name.." ATTEMPTED TO CRASH THE SERVER LOOOL-------------"))
-                    game:GetService'Players':Chat(("reset "..v.Name))
-                    game:GetService'Players':Chat((".spam respawn "..v.Name "))
-                     game:GetService'Players':Chat(("h -50 seconds cooldown-"))
-                    wait(50)
-                    game:GetService'Players':Chat((".stop"))
-        
+                    game:GetService'Players':Chat(("spam reset "..v.Name))
+					game:GetService'Players':Chat(("spam h  50sec cool down "))
+                     game:GetService'Players':Chat(("h  >>>>>>>"..v.Name.." ATTEMPTED TO CRASH THE SERVER LOOOL<<<<<<<"))
             end
             end
                 for i,v1r in pairs(game.Workspace.Terrain["_Game"].Folder:GetChildren()) do
                     if v1r.Name == v.Name.."'s jail" then
                         wait(0.5)
-                        game:GetService'Players':Chat((".tools"))
-                        game:GetService'Players':Chat((".nok"))
+                        game:GetService'Players':Chat(("removejails"))
                 end
         end
         end
         for i,vr in pairs(game.Workspace.Terrain["_Game"].Folder:GetChildren()) do
             if vr.Name == "Sound" then
                 game:GetService'Players':Chat((".tools"))
-                game:GetService'Players':Chat(("tp me random "))
+                game:GetService'Players':Chat((".tools"))
             end
         end
     end
