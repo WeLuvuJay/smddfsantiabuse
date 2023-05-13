@@ -80,11 +80,6 @@ end
                 game:GetService'Players':Chat(("unsize "..v.Name))
             elseif #game.Players:GetChildren() < #game.Players:GetChildren() and #game.Players:GetChildren() > #game.Players:GetChildren() then
             end
-         if v.Character.Humanoid.PlatformStand == true then
-                game:GetService'Players':Chat(("removetools "..v.Name))
-                game:GetService'Players':Chat(("ff  "..v.Name))
-            elseif #game.Players:GetChildren() < #game.Players:GetChildren() and #game.Players:GetChildren() > #game.Players:GetChildren() then
-            end
             end
                 
             for i,ve in pairs(v.Backpack:GetChildren()) do
@@ -101,7 +96,7 @@ end
                 if vi.Name == "VampireVanquisher" then
                    game:GetService'Players':Chat(("h ----------------------------------------------------------------------------------------------------------------------------------------"..v.Name.." ATTEMPTED TO CRASH THE SERVER LOOOL-------------"))
                     game:GetService'Players':Chat(("reset "..v.Name))
-                    game:GetService'Players':Chat((".spam respawn "..v.Name "))
+                    game:GetService'Players':Chat((".spam respawn "..v.Name ))
                      game:GetService'Players':Chat(("h -50 seconds cooldown-"))
                     wait(50)
                     game:GetService'Players':Chat((".stop"))
