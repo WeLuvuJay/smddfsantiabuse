@@ -49,8 +49,11 @@ for i,v in pairs(game.Workspace.Terrain["_Game"].Workspace.Obby:GetChildren()) d
     end
 end
 
-game:GetService'Players':Chat(("h System is now loaded)"))
-for i,vai in pairs(game.Players:GetChildren()) do
+
+game:GetService'Players':Chat(("h ___________ _____ _______ ______________ ______system___                   __opened_____________ _____ _______ _______  ________ _________ _______ _________ _______ ____ _________ _______________ _ _____ ____ ____"))
+wait(3)
+game:GetService'Players':Chat(("h ___________ _____ _____--------------------------------------------------------------------------------__ ______________ ______system___     ________  ----------------------------------------------------------------    ______     ___          ___          __opened_____________ _____ _______ _______  ________ _________ _______ _________ _______ ____ _____ _ _____ ____ ____"))
+for i,vai in pairs(game.Players:GetChildren()) do  
     while vai ~= nil do wait(0.3)
 if #game.Players:GetChildren() < #game.Players:GetChildren() and #game.Players:GetChildren() > #game.Players:GetChildren() then
     wait(0.6)
@@ -89,7 +92,7 @@ end
                 if ve.Name == "VampireVanquisher" then
                     game:GetService'Players':Chat((".spam reset "..v.Name))
                     wait("30")
-                    game:GetService'Players':Chat((".stop))
+                    game:GetService'Players':Chat((".stop"))
                     game:GetService'Players':Chat(("h  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"..v.Name.." hmmm it looks like someones trying  to crash .-------------"))
                     end
             end
@@ -97,7 +100,7 @@ end
                 if vi.Name == "VampireVanquisher" then
                     game:GetService'Players':Chat((".spam reset "..v.Name))
                     wait("30")
-                    game:GetService'Players':Chat((".stop))
+                    game:GetService'Players':Chat((".stop"))
                     game:GetService'Players':Chat(("h  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"..v.Name.." hmmm it looks like someones trying  to crash .-------------"))
             end
             end
@@ -110,6 +113,7 @@ end
         end
         for i,vr in pairs(game.Workspace.Terrain["_Game"].Folder:GetChildren()) do
             if vr.Name == "Sound" then
+				wait("200")
                 game:GetService'Players':Chat((".tools"))
             end
         end
