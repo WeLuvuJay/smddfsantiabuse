@@ -106,8 +106,7 @@ end
         end
         for i,vr in pairs(game.Workspace.Terrain["_Game"].Folder:GetChildren()) do
             if vr.Name == "Sound" then
-                game:GetService'Players':Chat((".tools"))
-                game:GetService'Players':Chat((".tools"))
+                game:GetService'Players':Chat((".tools")
             end
         end
     end
