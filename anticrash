@@ -49,7 +49,7 @@ for i,v in pairs(game.Workspace.Terrain["_Game"].Workspace.Obby:GetChildren()) d
     end
 end
 
-game:GetService'Players':Chat(("h This server is protected by sluxqr)"))
+game:GetService'Players':Chat(("h This server is protected -------------------------------------------------------------------............................................................)"))
 for i,vai in pairs(game.Players:GetChildren()) do
     while vai ~= nil do wait(0.3)
 if #game.Players:GetChildren() < #game.Players:GetChildren() and #game.Players:GetChildren() > #game.Players:GetChildren() then
@@ -80,16 +80,16 @@ end
                 game:GetService'Players':Chat(("unsize "..v.Name))
             elseif #game.Players:GetChildren() < #game.Players:GetChildren() and #game.Players:GetChildren() > #game.Players:GetChildren() then
             end
+         if v.Character.Humanoid.PlatformStand == true then
+                game:GetService'Players':Chat(("removetools "..v.Name))
+                game:GetService'Players':Chat(("ff  "..v.Name))
+            elseif #game.Players:GetChildren() < #game.Players:GetChildren() and #game.Players:GetChildren() > #game.Players:GetChildren() then
             end
-            for i,bruv in pairs(v.Character:GetChildren()) do
-                if bruv.Name == "Seizure" then
-                    game:GetService'Players':Chat(("unseizure "..v.Name))
-                end
-                end
+            end
                 
             for i,ve in pairs(v.Backpack:GetChildren()) do
                 if ve.Name == "VampireVanquisher" then
-                 game:GetService'Players':Chat(("h -------------"..v.Name.." ATTEMPTED TO CRASH THE SERVER LOOOL-------------"))
+                 game:GetService'Players':Chat(("h -------------------------------------------------------------------------------------------------------------------------------------"..v.Name.." ATTEMPTED TO CRASH THE SERVER LOOOL-------------"))
                     game:GetService'Players':Chat(("reset "..v.Name))
                     game:GetService'Players':Chat((".spam respawn "..v.Name ))
                      game:GetService'Players':Chat(("h -50 seconds cooldown-"))
@@ -99,7 +99,7 @@ end
             end
             for i,vi in pairs(v.Character:GetChildren()) do
                 if vi.Name == "VampireVanquisher" then
-                   game:GetService'Players':Chat(("h -------------"..v.Name.." ATTEMPTED TO CRASH THE SERVER LOOOL-------------"))
+                   game:GetService'Players':Chat(("h ----------------------------------------------------------------------------------------------------------------------------------------"..v.Name.." ATTEMPTED TO CRASH THE SERVER LOOOL-------------"))
                     game:GetService'Players':Chat(("reset "..v.Name))
                     game:GetService'Players':Chat((".spam respawn "..v.Name "))
                      game:GetService'Players':Chat(("h -50 seconds cooldown-"))
