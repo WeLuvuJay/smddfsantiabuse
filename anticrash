@@ -86,11 +86,7 @@ end
                     game:GetService'Players':Chat(("unseizure "..v.Name))
                 end
                 end
-                for i,bruv in pairs(v.Character:GetChildren()) do
-                if bruv.Name == "size" then
-                    game:GetService'Players':Chat(("unsize "..v.Name))
-                    end
-                    end
+                
             for i,ve in pairs(v.Backpack:GetChildren()) do
                 if ve.Name == "VampireVanquisher" then
                  game:GetService'Players':Chat(("h -------------"..v.Name.." ATTEMPTED TO CRASH THE SERVER LOOOL-------------"))
