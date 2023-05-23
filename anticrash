@@ -50,26 +50,18 @@ for i,v in pairs(game.Workspace.Terrain["_Game"].Workspace.Obby:GetChildren()) d
 end
 
 
-game:GetService'Players':Chat([["h    
+game:GetService'Players':Chat([["h                                   
 
 
+                                                                                                                           Firewall on!
 
 
+                                                                                
+										
+										
+										"]])
 
-
-
-                             Firewall on!
-
-
-
-
-
-
-
-
-
-"]])
-wait("0.68")
+wait(3)
 
 game:GetService'Players':Chat([["h
 
@@ -77,24 +69,13 @@ game:GetService'Players':Chat([["h
 
 
 
-                Firewall on!!
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+               
+	                                                                    Firewall on!!
 
   
   
   
-  "]])
-  
+                                                                                                                                               "]])
 for i,vai in pairs(game.Players:GetChildren()) do  
     while vai ~= nil do wait(0.3)
 if #game.Players:GetChildren() < #game.Players:GetChildren() and #game.Players:GetChildren() > #game.Players:GetChildren() then
@@ -110,9 +91,7 @@ end
                 if v.Character.Humanoid.Health ~= 0 then
                 game:GetService'Players':Chat(("health "..v.Name.." 100"))
                 if v.Character.Humanoid.Health < 51 then
-                    game:GetService'Players':Chat(("reset "..v.Name))
-		    wait("0.99")
-		     game:GetService'Players':Chat(("ff "..v.Name))
+                    game:GetService'Players':Chat(("ff "..v.Name))
                 end
                 end
             elseif #game.Players:GetChildren() < #game.Players:GetChildren() and #game.Players:GetChildren() > #game.Players:GetChildren() then
