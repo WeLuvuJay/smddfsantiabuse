@@ -50,13 +50,13 @@ for i,v in pairs(game.Workspace.Terrain["_Game"].Workspace.Obby:GetChildren()) d
 end
 
 
-game:GetService'Players':Chat(["h                                   
+game:GetService'Players':Chat([["h                                   
 
 
 Firewall on!
 
 
-"])
+"]])
 wait(3)
 game:GetService'Players':Chat([["h
 
