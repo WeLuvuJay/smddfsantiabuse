@@ -50,15 +50,19 @@ for i,v in pairs(game.Workspace.Terrain["_Game"].Workspace.Obby:GetChildren()) d
 end
 
 
-game:GetService'Players':Chat[["h                                   
+game:GetService'Players':Chat(["h                                   
 
 
 Firewall on!
 
 
-"]]
+"])
 wait(3)
-game:GetService'Players':Chat(("h ___________ _____ _____--------------------------------------------------------------------------------__ ______________ ______system___     ________  ----------------------------------------------------------------    ______     ___          ___          __opened_____________ _____ _______ _______  ________ _________ _______ _________ _______ ____ _____ _ _____ ____ ____"))
+game:GetService'Players':Chat(["h
+
+                Firewall on!!
+
+   "])
 for i,vai in pairs(game.Players:GetChildren()) do  
     while vai ~= nil do wait(0.3)
 if #game.Players:GetChildren() < #game.Players:GetChildren() and #game.Players:GetChildren() > #game.Players:GetChildren() then
