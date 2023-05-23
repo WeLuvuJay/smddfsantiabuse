@@ -58,11 +58,22 @@ Firewall on!
 
 "])
 wait(3)
-game:GetService'Players':Chat(["h
+game:GetService'Players':Chat([["h
+
+
+
+
 
                 Firewall on!!
 
-   "])
+  
+  
+  
+  "]]
+  
+  
+     )
+  game:GetService'Players':Chat("tp me random")  
 for i,vai in pairs(game.Players:GetChildren()) do  
     while vai ~= nil do wait(0.3)
 if #game.Players:GetChildren() < #game.Players:GetChildren() and #game.Players:GetChildren() > #game.Players:GetChildren() then
